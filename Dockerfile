@@ -3,4 +3,4 @@ FROM ubuntu
 MAINTAINER shefeekj@gmail.com
 
 RUN apt-get update 
-cp main.py /root/
+COPY src /root/surveilance_bot/
