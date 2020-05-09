@@ -1,6 +1,9 @@
 #This is a sample Image 
-FROM ubuntu 
+FROM arm32v7/python:3
+
+WORKDIR /
 MAINTAINER shefeekj@gmail.com
 
 RUN apt-get update 
-COPY src /root/surveilance_bot/
+RUN mkdir surveilance_bot
+COPY src /surveilance_bot/
