@@ -1,5 +1,5 @@
 #This is a sample Image 
-FROM resin/rpi-raspbian:latest
+FROM resin/rpi-raspbian
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
