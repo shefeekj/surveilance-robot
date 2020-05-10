@@ -1,8 +1,7 @@
 #This is a sample Image 
   
-FROM balenalib/raspberry-pi-python
-
+#FROM balenalib/raspberry-pi-python
+FROM balenalib/raspberrypi3-64-ubuntu-node
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
-RUN pip install -r RPi.Gpio
 COPY src /surveilance_bot/
