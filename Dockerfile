@@ -4,5 +4,5 @@ FROM balenalib/raspberry-pi-python
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
-RUN apt-get update && apt-get install -y python-rpi.gpio
+RUN pip install -r RPi.Gpio
 COPY src /surveilance_bot/
