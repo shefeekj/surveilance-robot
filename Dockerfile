@@ -1,6 +1,6 @@
 #This is a sample Image 
   
-FROM armv7/armhf-ubuntu_core
+FROM armbuild/debian:8.0
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
