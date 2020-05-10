@@ -1,5 +1,5 @@
 #This is a sample Image 
-FROM resin/rpi-raspbian
+FROM balenalib/aarch64-debian-python:latest
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
