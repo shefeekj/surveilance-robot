@@ -1,6 +1,6 @@
 #This is a sample Image 
   
-FROM armbuild/debian:8.0
+FROM resin/rpi-raspbian:latest
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
