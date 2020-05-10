@@ -2,7 +2,7 @@
   
 #FROM balenalib/raspberry-pi-python
 FROM arm32v7/python
-WORKDIRFROM  /
+WORKDIR  /
 MAINTAINER shefeekj@gmail.com
 # Intall the rpi.gpio python module
 RUN pip install --no-cache-dir rpi.gpio
