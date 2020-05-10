@@ -1,5 +1,5 @@
 #This is a sample Image 
-FROM arm32v7/python:3
+FROM resin/rpi-raspbian:latest
 
 WORKDIR /
 MAINTAINER shefeekj@gmail.com
