@@ -1,6 +1,6 @@
 #This is a sample Image 
 FROM ubuntu:latest
-MAINTAINER David Noyes <david@raspberrypython.com>
+
 
 ENV DEBIAN_FRONTEND="noninteractive" \
     LANG="en_US.UTF-8" \
